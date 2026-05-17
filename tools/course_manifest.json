@@ -1,0 +1,11 @@
+{
+    "course_name": "Web Dev за Начинаещи",
+    "steps": [
+        "01-html/01-intro",
+        "01-html/02-elements",
+        "02-css/01-selectors",
+        "02-css/02-box-model",
+        "03-javascript/01-variables",
+        "03-javascript/02-dom-manipulation"
+    ]
+}

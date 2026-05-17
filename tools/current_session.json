@@ -1,0 +1,9 @@
+{
+    "student_name": "Unknown",
+    "current_branch": "main",
+    "last_update": "",
+    "current_module": "01-html",
+    "current_lesson": "01-intro",
+    "completed_lessons": [],
+    "teacher_notes": "Ученикът стартира курса сега. Помоли го да премине в нов Git бранч и да каже името си."
+}

@@ -1,0 +1,7 @@
+{
+    "github.copilot.chat.scope": "workspace",
+    "files.exclude": {
+        "**/.git": true,
+        "**/generate_structure.py": false
+    }
+}
