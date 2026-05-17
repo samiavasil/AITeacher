@@ -1,5 +1,6 @@
 {
     "course_name": "Web Dev за Начинаещи",
+    "course_version": "1.0.0",
     "steps": [
         "01-html/01-intro",
         "01-html/02-elements",

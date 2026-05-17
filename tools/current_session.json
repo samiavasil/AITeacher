@@ -1,9 +1,13 @@
 {
+    "schema_version": "1.0.0",
     "student_name": "Unknown",
     "current_branch": "main",
-    "last_update": "",
-    "current_module": "01-html",
-    "current_lesson": "01-intro",
+    "last_update_utc": "2026-05-17T12:00:00Z",
+    "current_step_index": 0,
+    "current_lesson_path": "01-html/01-intro",
+    "lesson_state": "not_started",
+    "next_step_action": "prompt_student_for_name",
     "completed_lessons": [],
-    "teacher_notes": "Ученикът стартира курса сега. Помоли го да премине в нов Git бранч и да каже името си."
+    "mistakes_log": [],
+    "teacher_internal_notes": "Ученикът стартира курса сега. Провери бранча му и го онбордни."
 }
