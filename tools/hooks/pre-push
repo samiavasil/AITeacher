@@ -2,8 +2,8 @@
 # Защита от директен push в main бранча
 while read local_ref local_sha remote_ref remote_sha
 do
-    if [ "$remote_ref" = "refs/heads/main" ]; then
-        echo "❌ [ГРЕШКА] Директният push към бранч 'main' е забранен!"
+    if [ "$remote_ref" = "refs/heads/main" ] || [ "$remote_ref" = "refs/heads/main_release_candidate" ]; then
+        echo "❌ [ГРЕШКА] Директният push към бранч 'main' или 'main_release_candidate' е забранен!"
         echo "ℹ️ Превключете към вашия студентски бранч чрез командата от AI учителя."
         exit 1
     fi
