@@ -1,13 +1,31 @@
 {
     "schema_version": "1.0.0",
-    "student_name": "Unknown",
-    "current_branch": "main",
-    "last_update_utc": "2026-05-17T12:00:00Z",
-    "current_step_index": 0,
-    "current_lesson_path": "01-html/01-intro",
+    "student_name": "Vasil",
+    "current_branch": "student/vasil",
+    "last_update_utc": "2026-05-22T09:36:35Z",
+    "current_step_index": 9,
+    "current_lesson_path": "01-html/10-accessibility",
     "lesson_state": "not_started",
-    "next_step_action": "prompt_student_for_name",
-    "completed_lessons": [],
-    "mistakes_log": [],
-    "teacher_internal_notes": "Ученикът стартира курса сега. Провери бранча му и го онбордни."
+    "next_step_action": "load_theory",
+    "completed_lessons": [
+        "01-html/01-intro",
+        "01-html/02-elements",
+        "01-html/03-images",
+        "01-html/04-forms-basics",
+        "01-html/05-forms-advanced",
+        "01-html/06-tables",
+        "01-html/07-semantic-layout",
+        "01-html/08-media",
+        "01-html/09-attributes"
+    ],
+    "mistakes_log": [
+        "2026-05-21T15:40:54Z - Използвани са шаблонни alt текстове вместо смислено описание на изображенията.",
+        "2026-05-21T16:50:46Z - Във формата липсва затварящ таг за form.",
+        "2026-05-21T17:58:39Z - В advanced формата липсват form и select елемент, а radio бутоните използват дублиран id.",
+        "2026-05-21T18:07:45Z - Radio бутоните за пол не са в една група (name) и label за жена сочи грешен for атрибут.",
+        "2026-05-21T21:10:29Z - Навигационните линкове в semantic layout трябва да са в списък в nav (ul/li).",
+        "2026-05-21T21:38:39Z - Media задачата използва width 480 вместо 400 и вторият video source не е различен формат.",
+        "2026-05-22T09:34:10Z - В attributes задачата class=card е сложен на p вместо на трите div елемента, а footer е div вместо footer елемент."
+    ],
+    "teacher_internal_notes": "Сесията е паузирана. При следващо стартиране продължи от урока 01-html/09-attributes с теорията."
 }

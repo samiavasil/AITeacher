@@ -1,0 +1,1 @@
+{"topic_name":"Video streaming with HLS and DASH","content":"Add a lesson explaining how browser video playback differs between direct media files and streaming manifests such as HLS (.m3u8) and DASH (.mpd), including when to use iframe embeds versus JavaScript players like hls.js or Shaka Player."}
