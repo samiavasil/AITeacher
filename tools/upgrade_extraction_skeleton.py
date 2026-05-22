@@ -43,10 +43,29 @@ def is_excluded(path):
     return any(e in path for e in EXCLUDE)
 
 def restore_template(file_path):
-    # TODO: Имплементирай възстановяване на темплейт (пример)
+    # Възстановява index.html до работещ базов HTML темплейт
     if file_path.endswith('index.html'):
         with open(file_path, 'w', encoding='utf-8') as f:
-            f.write("<!-- Пиши своя HTML код тук -->\n")
+            f.write(
+                '<!DOCTYPE html>\n'
+                '<html lang="bg">\n'
+                '<head>\n'
+                '    <meta charset="UTF-8">\n'
+                '    <title>HTML Урок</title>\n'
+                '</head>\n'
+                '<body>\n'
+                '    <!-- Тук добави своето съдържание -->\n'
+                '</body>\n'
+                '</html>\n'
+            )
+    # Възстановява script.js до празен темплейт
+    elif file_path.endswith('script.js'):
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write('// Празен темплейт за JavaScript\n')
+    # Възстановява style.css до празен темплейт
+    elif file_path.endswith('style.css'):
+        with open(file_path, 'w', encoding='utf-8') as f:
+            f.write('/* Празен темплейт за CSS */\n')
 
 def main():
     print("[TEMPLATE] Upgrade extraction стартиран...")
