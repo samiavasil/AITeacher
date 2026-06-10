@@ -3,5 +3,6 @@
     "files.exclude": {
         "**/.git": true,
         "**/generate_structure.py": false
-    }
+    },
+    "idf.pythonInstallPath": "/home/vav3sf/.platformio/penv/bin/python"
 }
