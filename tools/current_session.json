@@ -1,7 +1,9 @@
 {
-    "schema_version": "1.0.0",
+    "schema_version": "2.0.0",
     "student_name": "",
     "current_branch": "",
+    "current_course_id": "web-dev-beginners",
+    "current_course_title": "Web Dev за Начинаещи",
     "last_update_utc": "",
     "current_step_index": 0,
     "current_lesson_path": "01-html/01-intro",
